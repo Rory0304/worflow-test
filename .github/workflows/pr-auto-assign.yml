@@ -1,11 +1,12 @@
 name: 'PR auto assign'
+
 on:
   workflow_dispatch:
-  workflow_call:
-    pull_request:
-      types:
-        - opened
-        - reopened
+  pull_request:
+    types:
+      - opened
+      - reopened
+
 
 jobs:
   # PR 오픈시 Author 자동 할당
