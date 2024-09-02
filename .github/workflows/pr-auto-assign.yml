@@ -20,8 +20,6 @@ jobs:
   # PR 오픈시 In Progress 라벨링
   assign-pr-label:
     runs-on: ubuntu-latest
-    on:
-      - pull_request
     steps:
       - uses: actions/labeler@v5
         with:
