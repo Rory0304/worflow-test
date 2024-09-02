@@ -1,0 +1,5 @@
+# Reviewer 자동 할당 설정
+addReviewers: false
+
+# Assignee를 Author로 설정
+addAssignees: author
